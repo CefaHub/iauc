@@ -1,0 +1,13 @@
+# IllitAuction config
+prefix: "&7[&f&lILLIT AH&7]&r "
+
+# Лот живёт 48 часов (в миллисекундах)
+listing-expire-ms: 172800000
+
+# Максимум лотов на игрока (0 = без лимита)
+max-listings-per-player: 0
+
+# Экономика (пока временно внутренняя, следующий плагин вы замените)
+economy:
+  enabled: true
+  starting-balance: 0
