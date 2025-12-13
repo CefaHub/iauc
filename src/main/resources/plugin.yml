@@ -1,0 +1,16 @@
+name: IllitAuction
+version: 1.0.4
+main: ru.illit.auction.IllitAuctionPlugin
+api-version: "1.20"
+author: Illit
+depend: [Vault]
+commands:
+  ah:
+    description: Аукцион
+    usage: /ah [sell|search|my|ник]
+  illit:
+    description: Админ-команды Illit
+    usage: /illit ah reload
+permissions:
+  illit.ah.admin:
+    default: op
