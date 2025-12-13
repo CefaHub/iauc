@@ -1,5 +1,5 @@
 name: IllitAuction
-version: 1.0.9
+version: 1.0.10
 main: ru.illit.auction.IllitAuctionPlugin
 api-version: "1.20"
 author: Illit

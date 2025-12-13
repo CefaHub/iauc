@@ -15,7 +15,8 @@ public final class GuiManager {
     public static final String TITLE_MY = U.c("&f&lАукцион &7- &fМои лоты");
     public static final String TITLE_BUY = U.c("&f&lАукцион &7- &fКупить");
 
-    private final IllitAuctionPlugin plugin;
+        public static final String TITLE_CANNOT_BUY = U.c("&f&lАукцион &7- &cОшибка");
+private final IllitAuctionPlugin plugin;
     private final AuctionService service;
 
     public GuiManager(IllitAuctionPlugin plugin, AuctionService service) {
